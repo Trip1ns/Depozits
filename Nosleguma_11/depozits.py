@@ -28,7 +28,7 @@ if materials in materialuVeidi:
     visiDati.append(depozits)
 
     dati = json.dumps(visiDati, ensure_ascii=False)
-    a = f"depozita_dati.json"
+    a = f"Nosleguma_11/depozita_dati.json"
     with open(a, "w", encoding="utf-8") as datne:
         datne.write(dati)
 else:
