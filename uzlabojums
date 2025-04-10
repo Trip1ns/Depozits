@@ -1,0 +1,65 @@
+import json
+import uuid
+
+visiDati = {"saraksts": [], "kopsumma": 0}
+materialuVeidi = {1: 0.1, 2: 0.2, 3: 0.5}
+# 1 - Plastmasa 
+# 2 - Skārdene
+# 3 - Stikla 
+try:
+    with open("depozita_dati.json", "r", encoding="utf-8") as datne:
+        dati = datne.read()
+        visiDati = json.loads(dati)
+except:
+    pass
+
+def aprekinasana():
+    kopsumma = 0
+
+    while True:
+        try:
+            materials = int(input("Ievadiet materiālu (1 - Plastmasa, 2 - Skārdene, 3 - Stikla): "))
+            if materials not in materialuVeidi:
+                print("Ievadiet pareizu pudeļu materiālu!")
+                continue
+        except ValueError:
+            print("Ievadi skaitli 1, 2 vai 3")
+            continue    
+
+        try:
+            Skaits = int(input("Cik pudeles nodosiet?"))
+            if Skaits <= 0:
+                print("Ievadiet pozitīvu skaitu!")
+                continue
+        except ValueError:
+            print("Lūdzu ievadiet skaitli!")
+            continue
+
+        depozits = {}
+        numurs = str(uuid.uuid4())
+        cena = materialuVeidi[materials]
+        summa = cena * Skaits
+        kopsumma += summa
+
+        depozits["Numurs"] = numurs
+        depozits["Materials"] = materials
+        depozits["Skaits"] = Skaits
+        depozits["Summa"] = summa
+
+        visiDati["saraksts"].append(depozits)
+        visiDati["kopsumma"] += summa
+
+        velreiz = input("Vai tev vēl ir depozīts?(J/N): ").capitalize()
+        if velreiz == "N":
+            print(f"Depozīta atmaksa: {kopsumma} EUR")
+            break
+        if velreiz == "J":
+            continue
+        else:
+            print("Ja vēlies turpināt nodot depozītu, Izvēlies J - Jā vai N - nē")
+
+    dati = json.dumps(visiDati, ensure_ascii=False)
+    with open("depozita_dati.json", "w", encoding="utf-8") as datne:
+        datne.write(dati)
+
+aprekinasana()
