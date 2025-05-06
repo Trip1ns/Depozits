@@ -1,5 +1,7 @@
 import json
 from datetime import datetime
+import tkinter
+
 
 tagad = datetime.now()
 apalots = tagad.replace(second=2, microsecond=0)
