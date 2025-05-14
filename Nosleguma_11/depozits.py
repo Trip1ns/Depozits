@@ -1,6 +1,5 @@
 import json
 from datetime import datetime
-import tkinter
 
 
 tagad = datetime.now()
