@@ -47,7 +47,121 @@
             "Materials": 3,
             "Skaits": 3,
             "Summa": 1.5
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:20:00",
+            "Materials": 3,
+            "Skaits": 7,
+            "Summa": 3.5
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:20:00",
+            "Materials": 1,
+            "Skaits": 656,
+            "Summa": 65.60000000000001
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:20:00",
+            "Materials": 2,
+            "Skaits": 1,
+            "Summa": 0.2
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:22:00",
+            "Materials": 2,
+            "Skaits": 10,
+            "Summa": 2.0
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:22:00",
+            "Materials": 2,
+            "Skaits": 11,
+            "Summa": 2.2
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:31:00",
+            "Materials": 1,
+            "Skaits": 2,
+            "Summa": 0.2
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:32:00",
+            "Materials": 1,
+            "Skaits": 3,
+            "Summa": 0.30000000000000004
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:33:00",
+            "Materials": 3,
+            "Skaits": 20,
+            "Summa": 10.0
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:33:00",
+            "Materials": 2,
+            "Skaits": 10,
+            "Summa": 2.0
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:33:00",
+            "Materials": 1,
+            "Skaits": 100,
+            "Summa": 10.0
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:37:00",
+            "Materials": 3,
+            "Skaits": 1,
+            "Summa": 0.5
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:37:00",
+            "Materials": 2,
+            "Skaits": 10,
+            "Summa": 2.0
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:37:00",
+            "Materials": 2,
+            "Skaits": 1,
+            "Summa": 0.2
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:45:00",
+            "Materials": 3,
+            "Skaits": 10,
+            "Summa": 5.0
+        },
+        {
+            "Nodošanas laiks": "2025-04-16 15:45:00",
+            "Materials": 2,
+            "Skaits": 2,
+            "Summa": 0.4
+        },
+        {
+            "Nodošanas laiks": "2025-05-07 13:55:02",
+            "Materials": 3,
+            "Skaits": 3,
+            "Summa": 1.5
+        },
+        {
+            "Nodošanas laiks": "2025-05-07 13:55:02",
+            "Materials": 3,
+            "Skaits": 3,
+            "Summa": 1.5
+        },
+        {
+            "Nodošanas laiks": "2025-05-07 13:55:02",
+            "Materials": 3,
+            "Skaits": 3,
+            "Summa": 1.5
+        },
+        {
+            "Nodošanas laiks": "2025-05-07 13:55:02",
+            "Materials": 3,
+            "Skaits": 3,
+            "Summa": 1.5
         }
     ],
-    "kopsumma": 50031.1
+    "kopsumma": 50141.19999999999
 }
