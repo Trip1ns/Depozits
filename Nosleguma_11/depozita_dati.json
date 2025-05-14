@@ -89,7 +89,13 @@
             "Materials": 1,
             "Skaits": 212,
             "Summa": 21.200000000000003
+        },
+        {
+            "Nodošanas laiks": "2025-05-07 13:53:02",
+            "Materials": 1,
+            "Skaits": 1,
+            "Summa": 0.1
         }
     ],
-    "kopsumma": 6178778.6
+    "kopsumma": 6178778.699999999
 }
